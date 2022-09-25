@@ -32,7 +32,10 @@ char mx_rand_char();
 void mx_down_drops(t_cell ***matrix, int height, int width);
 void mx_print_matrix(t_cell ***matrix, int height, int width);
 void mx_printchar(char c);
-
+int mx_strlen(char *s);
+void mx_print_text();
+void mx_print_creative(t_cell ***matrix, int height, int width);
+void mx_creative(t_cell ***matrix, int height, int width);
 
 #endif
 
