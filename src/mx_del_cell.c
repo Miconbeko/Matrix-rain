@@ -3,6 +3,6 @@
 void mx_del_cell(t_cell **cell) {
     if (cell == NULL)
         return;
-    free(&cell);
+    free(*cell);
     *cell = NULL;
 }

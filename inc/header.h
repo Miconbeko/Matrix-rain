@@ -20,7 +20,9 @@ typedef struct  s_cell {
 }               t_cell;
 
 //int main();
+void mx_ncurses_init();
 t_cell ***mx_create_matrix(int height, int width);
+void mx_rain(t_cell ***matrix, int height, int width);
 t_cell *mx_create_cell();
 void mx_del_cell(t_cell **cell);
 void mx_del_matrix(t_cell ****arr, int height, int width);
